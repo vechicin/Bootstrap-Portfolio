@@ -1,0 +1,8 @@
+body {
+  position: relative;
+  overflow-y: scroll;
+}
+
+.card .h-100 {
+  width: 18rem;
+}
