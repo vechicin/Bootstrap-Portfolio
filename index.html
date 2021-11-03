@@ -11,24 +11,44 @@
 </head>
 
 <body>
-  <nav class="navbar-fluid navbar-expand-lg navbar-light bg-light">
+  <nav id="navbar" class="navbar-fluid navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid d-flex justify-content-center">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#scrollspyHome">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            <a class="nav-link active" aria-current="page" href="#scrollspyProjects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
+            <a class="nav-link active" href="#scrollspyAbout">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contact Us</a>
+            <a class="nav-link active" href="#scrollspyContactUs">Contact Us</a>
           </li>
         </ul>
     </div>
   </nav>
+
+  <main data-bs-spy="scroll" data-bs-target="#navbar">
+    <section>
+      <h2 id="scrollspyHome">Hello!</h2>
+      <p>Meet us, three developers who will build you whatever you want!</p>
+    </section>
+    
+    <section>
+      <h2 id="scrollspyProjects">Projects</h2>
+    </section>
+
+    <section>
+      <h2 id="scrollspyAbout">About</h2>
+    </section>
+    
+    <h2 id="scrollspyContactUs">Contact Us</h2>
+
+
+  </main>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
