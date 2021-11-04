@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="position: relative;" data-bs-spy="scroll" data-bs-target="#navbar" style="overflow-y: scroll;" tabindex="0"
+<body style="position: relative;" data-bs-spy="scroll" data-bs-target="#navbar"  data-bs-offset="0" style="overflow-y: scroll;" tabindex="0"
   data-bs-offset="0">
   <nav id="navbar" class="navbar-expand-sm navbar-light bg-light sticky-top text-end">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+    <button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="container-fluid justify-content-center collapse navbar-collapse text-center" id="navbarText">
@@ -35,23 +35,14 @@
     </div>
   </nav>
 
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-  </div>
-  </div>
-  </nav>
-
-  <main class="container-fluid">
-    <section class="text-center">
-      <h2 id="scrollspyHome">Hello!</h2>
-      <p>Meet us, three developers who will build you whatever you want!</p>
+  <main class="container-fluid py-5">
+    <section id="scrollspyHome" class="text-center">
+      <h2 class="pt-5 pb-3">Hello!</h2>
+      <p class="py-3">Meet us, three developers who will build you whatever you want!</p>
     </section>
 
-    <section class="d-flex flex-column justify-content-center">
-      <h2 id="scrollspyProjects" class="text-center">Projects</h2>
+    <section id="scrollspyProjects" class="py-5">
+      <h2 class="text-center py-5">Projects</h2>
       <div class="container text-center">
         <div class="row g-5">
           <div class="col-lg-4 col-md-6 d-flex justify-content-center text-center">
@@ -188,7 +179,6 @@
           </div>
         </div>
       </div>
-
       <div id="modals">
         <div class="modal fade" id="project1" tabindex="-1">
           <div class="modal-dialog modal-dialog-centered">
@@ -330,12 +320,13 @@
         </div>
       </div>
     </section>
-    <section>
-      <h2 id="scrollspyAbout" class="text-center">About</h2>
+
+    <section id="scrollspyAbout" class="py-5">
+      <h2 class="text-center py-5">About</h2>
       <div class="container d-flex justify-content-center">
         <div class="row g-5">
           <div class="col">
-            <h3>Santiago</h3>
+            <h4>Santiago</h4>
             <p>Hailing from Colombia, Santiago is a very committed, yet informal,
               developer who loves cracking jokes at the most inappropriate times.
               He makes up for this by working hard and by being a good team-player.
@@ -343,14 +334,14 @@
             </p>
           </div>
           <div class="col">
-            <h3>Zaman</h3>
+            <h4>Zaman</h4>
             <p>
               Zaman is an up and coming programmer form Pakistan, bringing her A-game to the coding community worldwide.
               On the side, she likes to curl up with a good book or a fun puzzle. You can find her at hmemaz@gmail.com
             </p>
           </div>
           <div class="col">
-            <h3>Mihreteab</h3>
+            <h4>Mihreteab</h4>
             <p>
               Hello, everyone this is Mihreteab am from Ethiopia and I'm software developer beside that I love playing
               chess.
@@ -360,10 +351,11 @@
         </div>
       </div>
     </section>
-    <section>
-      <h2 id="scrollspyContactUs" class="text-center">Contact Us</h2>
+
+    <section id="scrollspyContactUs" class="py-5">
+      <h2 class="text-center py-5">Contact Us</h2>
       <div class="container d-flex justify-content-center">
-        <div class="col-4">
+        <div class="col-lg-6 col-sm-10">
           <form>
             <div class="mb-3">
               <label for="fullName" class="form-label">Name</label>
@@ -395,7 +387,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
