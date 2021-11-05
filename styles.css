@@ -6,3 +6,11 @@ body {
 .card .h-100 {
   width: 18rem;
 }
+
+footer {
+  height: 5vh;
+}
+
+footer ul {
+  list-style: none;
+}
