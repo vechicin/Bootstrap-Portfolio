@@ -14,3 +14,7 @@ footer {
 footer ul {
   list-style: none;
 }
+
+.about-description {
+  width: 50%;
+}
