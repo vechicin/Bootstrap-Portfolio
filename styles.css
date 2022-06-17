@@ -17,4 +17,17 @@ footer ul {
 
 .about-description {
   width: 50%;
+  color: #6f0f0f;
+}
+
+#myself {
+  width: 25%;
+}
+
+.py-5 {
+  background: radial-gradient(circle, rgba(143,111,164,1) 0%, rgba(177,175,172,1) 100%);
+}
+
+.form-text {
+  color: #184976;
 }
